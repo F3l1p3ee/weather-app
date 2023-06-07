@@ -1,3 +1,23 @@
 .small-card-container {
-    border: 1px solid black
+    border: 1px solid black;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.card-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.col-square {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    height: 80px;
+    padding: 10px 0px 0px 10px;    
+    border: 1px solid red;
+}
+
+.col-info {
+
 }
