@@ -1,4 +1,7 @@
 .app-container {
-    display: flex;
+    margin: 2rem;
+    
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
     justify-content: center;
 }
