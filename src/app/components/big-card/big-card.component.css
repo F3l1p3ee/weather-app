@@ -1,14 +1,20 @@
 .card-container {
+    height: 350px;
     width: 800px;
-    
+    /* Aplicando um tamanho ao componente */
     display: grid;
     grid-template-columns: repeat(2 ,1fr);
-    
-    border: 1px solid black;
+    /* Dispondo duas colunas para separar as divs weather-info e weather-image */
+    background-color: #315760;   
+    color: white;
+    /* Estlizando cor de fundo */
 }
 
 .weather-info {
-    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Centralizando a div informations no meio de weather-info */
 }
 
 .weather-img {
@@ -18,3 +24,15 @@
     display: flex;
     justify-content: flex-end;
 }
+
+h2 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 25px;
+}
+
+.informations p:nth-last-child(-n+3) {
+    font-size: 18px !important;
+  }
