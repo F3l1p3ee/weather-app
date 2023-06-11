@@ -6,7 +6,6 @@
     grid-template-columns: repeat(2 ,1fr);
     /* Dispondo duas colunas para separar as divs weather-info e weather-image */
     background-color: #315760;   
-    color: white;
     /* Estlizando cor de fundo */
 }
 

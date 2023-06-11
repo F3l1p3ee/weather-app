@@ -3,7 +3,6 @@
 body { 
     margin: 0;
     font-family: Roboto, "Helvetica Neue", sans-serif;
-    /* color: white; */
-
-    background-color: #8599a3;
+    color: white;
+    background-image: linear-gradient(45deg, #5d737c,#afc3cf);
 }
